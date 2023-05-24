@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<TargetFramework>net48</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Tekla.Structures.Drawing" Version="2022.0.10715" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\netDxf\netDxf.csproj" />
+	</ItemGroup>
+
+</Project>
